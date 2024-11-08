@@ -69,7 +69,8 @@ describe('placeholder test', () => {
 
     await user.click(inputText);
     expect(inputText).toHaveStyle({
-      borderWidth: 2,
+      borderWidth: '2px',
+      // borderWidth: 2,
       borderColor: 'rgb(25, 118, 210)',
     });
   });
